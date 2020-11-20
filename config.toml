@@ -1,0 +1,9 @@
+baseURL = "https://10mb.club/"
+languageCode = "en-us"
+title = "10MB Club"
+
+theme = "smol"
+
+[params]
+	description = "Homepages whose total network payload exceeds 10MB"
+	author = "Marc Roberts"

@@ -1,0 +1,6 @@
+<article>
+	<h1>{{ .Title }} 
+		<a href="{{ .Params.site_url }}" rel="noopener" title="Go to {{ .Title}}">🔗</a>
+		<a href="https://developers.google.com/speed/pagespeed/insights/?url={{ .Params.site_url }}" rel="noopener" title="View PageSpeed Insights">⏱</a></h1>
+	<b>{{ .Params.size }} kB. Checked on <time>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time></b>
+</article>
